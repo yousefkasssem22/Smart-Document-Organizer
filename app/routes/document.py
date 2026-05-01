@@ -4,7 +4,7 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 async def process_document(file):
     try:
