@@ -1,20 +1,20 @@
-# 🧠 Smart Document Organizer
+#  Smart Document Organizer
 
 AI-powered document analysis system that processes files (TXT, PDF, DOCX) and extracts structured insights using a local LLM via **Ollama (TinyLlama)**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 📄 Upload and analyze documents (TXT, PDF, DOCX)
-* 🧠 AI-based content understanding
-* 🏷️ Automatic tagging and classification
-* 🌐 REST API using FastAPI
-* ⚡ Local LLM inference using Ollama 
+*  Upload and analyze documents (TXT, PDF, DOCX)
+*  AI-based content understanding
+*  Automatic tagging and classification
+*  REST API using FastAPI
+*  Local LLM inference using Ollama 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Client (Swagger / Frontend)
@@ -54,7 +54,7 @@ smart-document-organizer/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * **Backend:** FastAPI
 * **LLM:** Ollama (TinyLlama)
@@ -64,7 +64,7 @@ smart-document-organizer/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User uploads a file via `/api/analyze`
 2. Backend reads and extracts text
@@ -83,9 +83,9 @@ smart-document-organizer/
 
 ---
 
-## 🧪 API Endpoint
+##  API Endpoint
 
-### 🔹 Analyze Document
+###  Analyze Document
 
 **POST** `/api/analyze`
 
@@ -111,7 +111,7 @@ smart-document-organizer/
 
 ---
 
-## 🖥️ Installation
+##  Installation
 
 ### 1. Clone repo
 
@@ -154,7 +154,7 @@ ollama pull tinyllama
 
 ---
 
-## ▶️ Run the Project
+##  Run the Project
 
 ### Terminal 1 (Ollama):
 
@@ -171,7 +171,7 @@ uvicorn app.main:app --reload
 
 
 
-## ⚠️ Notes
+##  Notes
 
 * TinyLlama is lightweight → responses may not always be perfectly structured
 * JSON parsing fallback is implemented for robustness
@@ -179,7 +179,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Use stronger LLM (Mistral / LLaMA 3)
 * Add vector database (RAG)
@@ -189,12 +189,12 @@ uvicorn app.main:app --reload
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Yousef Kassem**
 
 ---
 
-## ⭐ License
+##  License
 
 MIT License
