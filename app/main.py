@@ -5,7 +5,7 @@ import requests
 import json
 
 # Ollama local endpoint
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 app = FastAPI(
     title="Smart Document Organizer",
